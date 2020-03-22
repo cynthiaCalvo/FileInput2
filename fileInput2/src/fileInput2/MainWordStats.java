@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-public class Input {
+public class MainWordStats {
 
 	public static void main(String[] args) {
 		int character, y;
@@ -63,7 +63,7 @@ public class Input {
 				System.out.println(str);
 			}
 			
-			reader.close();
+			read.close();
 			
 		}catch(Exception e) {
 			System.out.println("This doesn't work");
