@@ -26,7 +26,7 @@ public class Input {
 			while((character = br.read()) != -1) {
 				y = 0;
 				char c = (char)character;
-				
+				//
 				if((c >= 'a') && (c <= 'z') || (c >= 'A') && (c <= 'Z')) {
 					word+=c;
 				}else {
