@@ -15,8 +15,8 @@ public class Input {
 		String word = "";
 		
 		try {
-			FileReader reader = new FileReader("glob.txt");
-			BufferedReader br = new BufferedReader(reader);
+			FileReader read = new FileReader("glob.txt");
+			BufferedReader br = new BufferedReader(read);
 			
 			ArrayList<WordStats> obj = new ArrayList<WordStats>();
 			ArrayList<String> single = new ArrayList<String>();
